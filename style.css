@@ -198,13 +198,15 @@ body {
 
 
 #circle {
-    width: 20px;
-    height: 20px;
-    background: #ee2b2b;
+    width: 30px;
+    height: 30px;
+    background: white;
     mix-blend-mode: difference;
     position: absolute;
     border-radius: 50%;
+    z-index: 99;
 }
+
 
 button {
     position: absolute;
